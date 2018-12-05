@@ -36,6 +36,17 @@
     "languages": [
       "en",
       "zh-tw"
-    ]
+    ],
+    "appsFolders": [
+      "mytest"
+    ],
+    "directoryPath": "../",
+    "dockerRepositoryName": "anyobject",
+    "dockerPushCommand": "docker push",
+    "kubernetesNamespace": "mytest",
+    "kubernetesServiceType": "NodePort",
+    "monitoring": "elk",
+    "istio": "no",
+    "istioRoute": false
   }
 }
